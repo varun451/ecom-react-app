@@ -8,6 +8,7 @@ import Registration from "./Components/Pages/Registration";
 import SignIn from "./Components/Pages/SignIn";
 import WishList from "./Components/Pages/WishList";
 import LearnHooks from "./Components/Modules/LearnHooks";
+import Add from "./Components/Pages/Admin/Category/Add";
 
 
 function App () {
