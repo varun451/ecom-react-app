@@ -36,11 +36,11 @@ const Add = () => {
         method: "POST",
         body: form,
       })
-      .then((res) => res.json())
-      .then((data) => console.log(data))
-      .catch((error) => {
-        console.error(error);
-      });
+        .then((res) => res.json())
+        .then((data) => console.log(data))
+        .catch((error) => {
+          console.error(error);
+        });
     }
   };
 
